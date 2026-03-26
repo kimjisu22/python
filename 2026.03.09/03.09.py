@@ -1,0 +1,6 @@
+userName = input('이름을 입력하세요.')
+print(userName, '고객님 안녕하세요.')
+id = input('아이디를 입력하세요: ')
+print('아이디:', id)
+pw = input('비밀번호를 입력하세요: ')
+print('비밀번호: ', pw)
