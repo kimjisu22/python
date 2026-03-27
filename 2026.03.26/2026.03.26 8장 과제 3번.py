@@ -7,23 +7,26 @@ add = int(input("1.연락처 추가\n2.연락처 조회\n3.종료\n메뉴를 선
 i = 1
 
 while i < len(tel):
-
+    i+=1
     if add == 1:
         name = input("이름을 입력하세요: ")
         phone = input("전화번호를 입력하세요: ")
         tel[name] = phone
-    
+        
         print(f"{name}의 연락처가 저장되었습니다.")
+        print(tel.keys(), tel.values())
+    
         break
         
     elif add == 2:
         select = input("조회할 이름을 입력하세요: ")
         print(f"{select}의 전화번호: ",) 
+        
         break
 
     elif add == 3:
         print("프로그램을 종료합니다")
-    i+=1    
+        
 else:
     print("올바른 번호를 입력하세요")
     
