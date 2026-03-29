@@ -9,10 +9,9 @@ for index,item in enumerate(menu):
  
     if item[0]== order:
        found = True
-    break
+       break
 if found:
     print(f"{order}의 가격은 {item[1]}입니다")
-
 else:
     print("해당 메뉴는 없습니다")
         
