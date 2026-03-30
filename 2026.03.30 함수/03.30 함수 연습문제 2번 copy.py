@@ -7,17 +7,9 @@ bibiCnt = int(input("비비빅 구매개수: "))
 chocoCnt = int(input("초코파이 구매개수: "))
 madongCnt = int(input("맛동산 구매개수: "))
 
+product = {'새우깡':'1200', '비비빅':'400', '초코파이':'500', '맛동산':'1500'}
 def print_receipt():
-    saePrice = saeCnt * 1200
-    print("새우깡 구매 금액: ",saePrice)
-
-    bibiPrice = bibiCnt * 400
-    print("비비빅 구매 금액: ",bibiPrice)
-
-    chocoPrice = chocoCnt * 500
-    print("초코파이 구매 금액: ",chocoPrice)
-
-    madongPrice = madongCnt * 1500
-    print("맛동산 구매 금액: ", madongPrice)
+    total = 0
+    
                 
 print_receipt()

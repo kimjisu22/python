@@ -15,8 +15,7 @@ for index, item in enumerate(name):
         found = True
         break
 if found == True:
-    print(
-inputData = input("검색하려는 이름을 입력하세요.: ")
-print('이름: ', inputData, ', 인덱스: ', names.index(inputData))
+    inputData = input("검색하려는 이름을 입력하세요.: ")
+    print('이름: ', inputData, ', 인덱스: ', names.index(inputData))
 
 
